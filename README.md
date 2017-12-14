@@ -11,7 +11,7 @@
 <p align = "justify"> The main idea we decided to tackle was that of cloud formation and movement leading up to a thunderstorm, which would be followed by lightning bolts emerging intermittently from the clouds on a stormy evening. The animation would involve the clouds slowly forming and then darkening over time to the point where they warned of a coming storm. This involved bigger cloud formations in the sky followed by the start of the storm itself accompanied by the lightning. We intended our primary components to be the clouds and the lightning as we anticipated that creating these from basics would pose a satisfying challenge. We intended to explore various methods for illustrating these phenomena, like the dielectric breakdown model, and procedural generation for lightning, and particles, perlin noise, and volumetric rendering and textures for the clouds. We decided that other common components of thunderstorms such as rain, thunder and the motion of lights would all be supplementary to our core goals. If by the end we had not finished the core components, we could forego them. Otherwise, we could add rain using particles. Thunder could be included by syncing various sounds with the lightning. And finally, light interpolation could be achieved by illuminating the scene when the lightning strikes based on the location of the strike and its intensity. </p>
 
 ## Methodology:
-### **Formation of Clouds: Techniques**
+### **1) Formation of Clouds: Techniques**
 There are a handful of techniques that can be used to create photo-realistic clouds. We looked into a couple of them in-depth which are mentioned below.
 #### **Particle System**
 ##### **a) Unity Particle System**
@@ -32,7 +32,7 @@ There are a handful of techniques that can be used to create photo-realistic clo
 <p align = "justify"> A method we were very intent on trying for producing clouds. Unfortunately, we didn't have enough time to do it properly. We were able to simulate basic noise but it does not resemble clouds closely enough to appear realistic. </p>
 
 
-### **Formation of Lightning: Techniques**
+### **2) Formation of Lightning: Techniques**
 We looked into the following three techniques to generate lightning patterns. 
 
 
@@ -87,6 +87,19 @@ We looked into the following three techniques to generate lightning patterns.
 ##### **6. Puddles**
 <p align = "justify"> Rain during storm always produces large puddles that reflect the sky wonderfully. Also, rain droplets falling on the puddles and colliding improves the realism of the scene. </p>
 
+
+## All Videos:
+<a href="https://www.youtube.com/watch?v=VWcmekmZUXY">Inigo's cloud formation video</a>
+<a href="https://www.youtube.com/watch?v=VUp1vz1-khY">Fewer clouds, distinct textures</a>
+<a href="https://www.youtube.com/watch?v=XteKeICAsmA">Moving over the clouds</a>
+<a href="https://www.youtube.com/watch?v=thn2uN9tiyA">Increased clouds</a>
+<a href="https://www.youtube.com/watch?v=-C38sSYX3-8">Increased  clouds with faint particles</a>
+<a href="https://www.youtube.com/watch?v=drnwuHnbgL0">Journey through the clouds</a>
+<a href="https://www.youtube.com/watch?v=d8sB_IcoPmw">Movement around the stationary scene</a>
+<a href="https://www.youtube.com/watch?v=qqAOrfPIj-s">Wispier clouds</a>
+<a href="https://www.youtube.com/watch?v=7vDIxYggI_M">Nebula-like</a>
+<a href="https://youtu.be/Zi-4xQJlyNs">Unity3D Particle system lightning</a>
+<a href="https://youtu.be/Zs1YsXSus2s">FINAL THUNDERSTORM</a>
 
 ## References:
 
