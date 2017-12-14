@@ -14,11 +14,11 @@
 ### **Formation of Clouds: Techniques**
 There are a handful of techniques that can be used to create photo-realistic clouds. We looked into a couple of them in-depth which are mentioned below.
 #### **Particle System**
-##### a) Unity Particle System
+##### **a) Unity Particle System**
 <p align = "justify"> Both our mid-quarter presentation demo and the final combined demo used the built-in Unity Particle System. The mid-quarter update used a single emitter while the final demo uses multiple emitters. The clouds are progressively darkened overtime and act as a harbinger for the coming thunderstorm. They are also programmed to move into the scene after a delay, stay in the scene during the thunderstorm accompanied by rain and lightning, and then proceed to drift away. We illuminate the terrain present in the scene whenever there is a bolt of lightning. We attempted to sync the thunder with the lightning but decided to play the sounds more at random because the number of lightning bolts we wanted to display during the sequence would have made it a little too noisy and cacophonous. Even if it might seem true to life to have the sounds, we decided to reduce the number them so as to spare viewers. We also attempted to illuminate the clouds during the lightning but could not get that done in time for submission unfortunately. </p>
 
 
-##### b) Threejs Particle System
+##### **b) Threejs Particle System**
 <p align = "justify"> Threejs has a more hands off approach when it comes to Particle System. All the particles need to be animated by iterating over them. Even though we could get semi-realistic clouds moving in the scene, we decided not to use it for any demos since it did not look as great as Unity's clouds and also the animation seemed a lot like our own particle system assignment just with a different kind of motion. </p>
 
 
@@ -49,42 +49,42 @@ We looked into the following three techniques to generate lightning patterns.
 
 
 ## Challenges:
-##### 1. Working in a Team
+##### **1. Working in a Team**
 <p align = "justify"> Working in a team is a good thing because it usually means that we have people around us that can help. While this is true, it is also important to note that communication is needed to successfully work in a team. In our case, although we had a good working relationship with each other, we had a hard time sitting and working on this project together because of very different individual schedules. We relied on offline communication for the most part of the development phase which created lags and ultimately delayed the integration phase. </p>
 
 
-##### 2. Learning Unity
+##### **2. Learning Unity**
 <p align = "justify"> Unity is a very powerful game-engine that can be used for creating complex virtual scenarios. However, there are specific ways of doing things in Unity and it requires for us to learn the tool as much possible as we can. This became a problem because none of us had ever used or worked with Unity ever before and most of felt comfortable in working with some other frameworks like Threejs. </p>
 
 
-##### 3. Branched Lightning
+##### **3. Branched Lightning**
 <p align = "justify"> Real world lightning can have a million different shapes but there are some that can be generalized and classified into some categories. One of these categories is Branched Lightning. In Branched Lightning, there isn't just one continuous combination of lines, there are lines branching out of the main set of lines as well. Like a tree. We were unfortunately unable to implement this specific type of lightning successfully. The Line-Renderer object of Unity that we used to visually represent our lightning, created some problems while working with a recursive algorithm of lightning generation. We still haven't figured out the cause of this issue. </p>
 
 
-##### 4. Global Illumination
+##### **4. Global Illumination**
 <p align = "justify"> It was difficult to illuminate the part of particle system based Clouds from where a bolt of lightning appeared. Simply toggling a hidden light source didn't work because particles in Unity's particle system are not individual objects and they can't have a prefab of their own. </p>
 
 
 ## Future Work:
-##### 1. Combine the threejs clouds with the unity scene 
+##### **1. Combine the threejs clouds with the unity scene**
 <p align = "justify"> The Unity scene uses the particle system for the clouds. Since our team happened to have different skill sets with knowledge of varied tools, we set out to create our respective components using the tools we were familar with due to our assignments. We intended to combine the approaches at the end but due to wildly differing schedules and deadlines, we ended up compromising and demoing both separately. Combining the two would go a long way into producing an incredible looking scene. </p>
 
 
-##### 2. Branched lightning 
+##### **2. Branched lightning**
 <p align = "justify"> There were some problems we faced while implementing branches in the lightning in the recursive algorithm. Doing this would immediately make our scene's lightning a more spectacular entity. </p>
 
 
-##### 3. Better looking clouds
+##### **3. Better looking clouds**
 <p align = "justify"> There is always room to tinker with the shaders to make the clouds look better. The distance function could also be tweaked. Even using a better texture could help with making the clouds look better. </p>
 
 
-##### 4. Rain droplets
+##### **4. Rain droplets**
 <p align = "justify"> Make the rain droplets look more realistic and possibly change directions periodically indicating the presence of strong winds during the thunderstorm. </p>
 
-##### 5. Collisions
+##### **5. Collisions**
 <p align = "justify"> This is mainly between the rain droplets and various objects in the scene and the terrain. Could be done once the rest of the scene is deemed satisfiable. </p>
 
-##### 6. Puddles
+##### **6. Puddles**
 <p align = "justify"> Rain during storm always produces large puddles that reflect the sky wonderfully. Also, rain droplets falling on the puddles and colliding improves the realism of the scene. </p>
 
 
