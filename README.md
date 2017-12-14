@@ -1,4 +1,4 @@
-## Abstract:
+## Simulation of Thunderstorm:
 
 <p align = "justify"> We put forth a couple of simple processes of simulating a realistic looking Thunderstorm in 3D. We discuss various processes with which we can generate various aspects of a Thunderstorm, like clouds, lightning, rain, etc. with few advantages and disadvantages of each, and then describe in detail the approach we end up using for each of these aspect in our own simulation of a realistic Thunderstorm. We have also put links to the videos of our output for the readers to judge the visual performance of the approaches themselve. We have used Threejs, and Unity, to implement our cloud system, and lightning respectively, which can be used in real time applications like in games, movies, or creating some similar looking special visual effects. </p>
 
