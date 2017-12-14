@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+## Abstract:
 
-You can use the [editor on GitHub](https://github.com/dhavalc25/thunderstorm/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dhavalc25/thunderstorm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p align = "justify"> We put forth a couple of simple processes of simulating a realistic looking Thunderstorm in 3D. We discuss various processes with which we can generate various aspects of a Thunderstorm, like clouds, lightning, rain, etc. with few advantages and disadvantages of each, and then describe in detail the approach we end up using for each of these aspect in our own simulation of a realistic Thunderstorm. We have also put links to the videos of our output for the readers to judge the visual performance of the approaches themselve. We have used Threejs, and Unity, to implement our cloud system, and lightning respectively, which can be used in real time applications like in games, movies, or creating some similar looking special visual effects. </p>
