@@ -90,16 +90,27 @@ We looked into the following three techniques to generate lightning patterns.
 
 ## All Videos:
 <a href="https://www.youtube.com/watch?v=VWcmekmZUXY">Inigo's cloud formation video</a>
+</br>
 <a href="https://www.youtube.com/watch?v=VUp1vz1-khY">Fewer clouds, distinct textures</a>
+</br>
 <a href="https://www.youtube.com/watch?v=XteKeICAsmA">Moving over the clouds</a>
+</br>
 <a href="https://www.youtube.com/watch?v=thn2uN9tiyA">Increased clouds</a>
+</br>
 <a href="https://www.youtube.com/watch?v=-C38sSYX3-8">Increased  clouds with faint particles</a>
+</br>
 <a href="https://www.youtube.com/watch?v=drnwuHnbgL0">Journey through the clouds</a>
+</br>
 <a href="https://www.youtube.com/watch?v=d8sB_IcoPmw">Movement around the stationary scene</a>
+</br>
 <a href="https://www.youtube.com/watch?v=qqAOrfPIj-s">Wispier clouds</a>
+</br>
 <a href="https://www.youtube.com/watch?v=7vDIxYggI_M">Nebula-like</a>
+</br>
 <a href="https://youtu.be/Zi-4xQJlyNs">Unity3D Particle system lightning</a>
+</br>
 <a href="https://youtu.be/Zs1YsXSus2s">FINAL THUNDERSTORM</a>
+</br>
 
 ## References:
 
