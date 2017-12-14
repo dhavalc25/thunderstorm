@@ -88,7 +88,7 @@ We looked into the following three techniques to generate lightning patterns.
 <p align = "justify"> Rain during storm always produces large puddles that reflect the sky wonderfully. Also, rain droplets falling on the puddles and colliding improves the realism of the scene. </p>
 
 
-## All Videos:
+## All Videos (References and Results):
 <a href="https://www.youtube.com/watch?v=VWcmekmZUXY">Inigo's cloud formation video</a>
 <br>
 <a href="https://www.youtube.com/watch?v=VUp1vz1-khY">Fewer clouds, distinct textures</a>
